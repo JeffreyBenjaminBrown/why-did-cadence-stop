@@ -1,0 +1,5 @@
+* references
+https://github.com/falkTX/Cadence
+https://discordapp.com/channels/418342651826405377/418353484988022784/515433927138213888
+  the discussion starts around the phrase "to remove all configs related to cadence in the home dir"
+https://linuxmusicians.com/viewtopic.php?f=4&t=19209&sid=30caf68ec3706694504cc431c0261b8c#p99187

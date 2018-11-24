@@ -1,0 +1,188 @@
+jeff@jeff-inspiron-2017:~$ grep -i kxstudio -r /etc/apt -l
+
+/etc/apt/sources.list.d/kxstudio-debian.list.save
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list~
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list~
+/etc/apt/sources.list.d/kxstudio-free.gcc5.list
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list
+/etc/apt/sources.list.d/kxstudio-non-free.gcc5.list.save
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.distUpgrade
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list.save
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.save
+/etc/apt/sources.list.d/kxstudio-free.gcc5.list.distUpgrade
+/etc/apt/sources.list.d/kxstudio-free.list.distUpgrade
+/etc/apt/sources.list.d/kxstudio-debian.new.list~
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list.distUpgrade
+/etc/apt/sources.list.d/kxstudio-debian.list~
+/etc/apt/sources.list.d/kxstudio-non-free.list.save
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list
+/etc/apt/sources.list.d/kxstudio-debian.list
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save
+/etc/apt/sources.list.d/kxstudio-free.list
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade
+/etc/apt/sources.list.d/kxstudio-free.list~
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.distUpgrade
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list~
+/etc/apt/sources.list.d/kxstudio-free.list.save
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.save
+/etc/apt/sources.list.d/kxstudio-debian.new.list
+/etc/apt/sources.list.d/kxstudio-free.gcc5.list.save
+/etc/apt/sources.list.d/kxstudio-free.gcc5.list~
+/etc/apt/trusted.gpg.d/kxstudio-debian_ubuntu_ubuntus.gpg
+/etc/apt/trusted.gpg.d/kxstudio-debian.gpg
+
+
+jeff@jeff-inspiron-2017:~$  grep -i kxstudio -r /etc/apt >> grep-kxstudio
+
+/etc/apt/sources.list.d/kxstudio-debian.list.save:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.save:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/music/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/music/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.save:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.save:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.save:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list:deb http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list~:# deb http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list~:# deb http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu wily main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu wily main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list~:# deb http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list~:# deb http://ppa.launchpad.net/kxstudio-debian/gcc5-deps/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5-deps/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-free.gcc5.list:deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ gcc5 free # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list:deb http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu bionic main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-non-free.gcc5.list.save:deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ gcc5 non-free
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list.save:deb http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.save:deb http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu bionic main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-free.gcc5.list.distUpgrade:deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ gcc5 free
+/etc/apt/sources.list.d/kxstudio-free.list.distUpgrade:deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ stable free
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb http://ppa.launchpad.net/kxstudio-debian/music/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/music/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5plus.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/music/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/music/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-non-free.list.save:deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ stable non-free
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list:deb http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu wily main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu wily main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list:deb http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list:deb http://ppa.launchpad.net/kxstudio-debian/gcc5-deps/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5-deps/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.list:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/music/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/music/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu lucid main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:deb http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:deb http://ppa.launchpad.net/kxstudio-debian/music/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/music/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:deb http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:deb http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:deb http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-free.list:deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ stable free # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/music/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/music/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-free.list~:# deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ stable free # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu wily main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu wily main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.distUpgrade:deb http://ppa.launchpad.net/kxstudio-debian/gcc5-deps/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5-deps/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/music/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/music/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:deb [arch=amd64,i386] http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian.list.distUpgrade:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu lucid main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list~:# deb http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu bionic main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-debian-ubuntu-ubuntus-artful.list~:# deb-src http://ppa.launchpad.net/kxstudio-debian/ubuntus/ubuntu artful main
+/etc/apt/sources.list.d/kxstudio-free.list.save:deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ stable free # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.save:deb http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu wily main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu wily main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.save:deb http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.save:deb http://ppa.launchpad.net/kxstudio-debian/gcc5-deps/ubuntu xenial main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.gcc5.list.save:# deb-src http://ppa.launchpad.net/kxstudio-debian/gcc5-deps/ubuntu xenial main
+/etc/apt/sources.list.d/kxstudio-debian.new.list:deb http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/libs/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list:deb http://ppa.launchpad.net/kxstudio-debian/music/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/music/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list:deb http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/plugins/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list:deb http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/apps/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-debian.new.list:deb http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu trusty main # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-debian.new.list:# deb-src http://ppa.launchpad.net/kxstudio-debian/kxstudio/ubuntu trusty main
+/etc/apt/sources.list.d/kxstudio-free.gcc5.list.save:deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ gcc5 free # disabled on upgrade to bionic
+/etc/apt/sources.list.d/kxstudio-free.gcc5.list~:# deb [arch=amd64,i386] http://kxstudio.linuxaudio.org/repo/ gcc5 free # disabled on upgrade to bionic
+Binary file /etc/apt/trusted.gpg.d/kxstudio-debian_ubuntu_ubuntus.gpg matches
+Binary file /etc/apt/trusted.gpg.d/kxstudio-debian.gpg matches
+
+jeff@jeff-inspiron-2017:~$ 
